@@ -41,6 +41,52 @@
          crossorigin="anonymous"
       ></script>
    </head>
-   <body>
+   <body class="leading-relaxed">
+      <!-- ANCHOR Header Section -->
+      <header
+         class="px-5 lg:px-0 my-3 lg:mx-auto lg:my-50 container flex items-center lg:justify-between"
+      >
+         <h1 class="font-bold text-2xl lg:text-4xl order-2 lg:order-1">
+            Hockey <span class="text-rose-600">'</span> s
+         </h1>
+
+         <div class="flex items-center order-1 lg:order-2">
+            <button class="w-6 h-6 mr-4 shrink-0 lg:hidden">
+               <img src="icons/menu-icon.svg" alt="menu-icon" />
+            </button>
+
+            <nav class="hidden lg:block">
+               <ul class="flex items-center gap-x-11">
+                  <li class="hover:text-rose-600 font-medium">
+                     <a href="">Home</a>
+                  </li>
+                  <li class="hover:text-rose-600 font-medium">
+                     <a href="">About</a>
+                  </li>
+                  <li class="hover:text-rose-600 font-medium">
+                     <a href="">Pages</a>
+                  </li>
+                  <li class="hover:text-rose-600 font-medium">
+                     <a href="">Blog</a>
+                  </li>
+                  <li class="hover:text-rose-600 font-medium">
+                     <a href="">Contact</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+
+         <div class="order-3 ml-auto lg:ml-0 flex items-center">
+            <button class="w-5 h-5 mr-6 hidden lg:block">
+               <img src="icons/Search.svg" alt="Search" />
+            </button>
+
+            <button
+               class="px-4 py-2 lg:px-6 lg:py-3 rounded-lg bg-rose-500 text-white font-semibold"
+            >
+               Get Ticket
+            </button>
+         </div>
+      </header>
    </body>
 </html>
